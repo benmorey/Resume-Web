@@ -1,0 +1,156 @@
+:root{
+    --white: antiquewhite;
+    --black: black;
+    --red: #EE6352;
+}
+
+body{
+    background-image: url(https://img.freepik.com/premium-vector/dotted-grid-seamless-pattern-bullet-journal-black-point-texture-black-dot-grid-notebook-paper-vector-illustration-white-background_192280-871.jpg);
+    background-size: 200px;
+}
+
+/* ol{
+    font-weight: 400;
+} */
+
+li{
+    opacity: 0.8;
+    font-size: 12px;
+    list-style-type: square;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+.black-left{
+    position: absolute;
+    background-color: var(--black);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 150px;
+    bottom: auto;
+    left: 100px;
+    right: auto;
+    float: inline-start;
+}
+
+.black-right{
+    position: absolute;
+    background-color: var(--black);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 400px;
+    bottom: auto;
+    left: 100px;
+    right: auto;
+    float: inline-start;
+}
+
+.self-portrait{
+    position: absolute;
+    background-color: var(--black);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 400px;
+    left: 400px;
+    right: 800px;
+}
+
+.box{
+    position: absolute;
+    background-color: var(--black);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.small-box{
+    position: fixed;
+    background-color: var(--black);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left:90%;
+}
+
+
+.video{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 150px;
+    right: 100px;
+}
+
+.anchor{
+    position: fixed;
+    background-color: var(--black);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 10px;
+    text-align: center;
+}
+
+.logo{
+    float: right;
+    /* background-color: var(--black);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+.white-text{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--white);
+    size: 24px;
+}
+
+.evil-text{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--red);
+    size: 24px;
+    font-style: italic;
+}
+
+.emphasis-text{
+    font-weight: 700;
+    size: 40px;
+}
+
+.description-text{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+a:link, a:visited{
+    color: var(--white);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+a:visited{
+    color: var(--red);
+}
+
+
+.logo:hover{
+    opacity: 0.5;
+    transition: 0.5s ease;
+}
+

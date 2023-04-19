@@ -1,0 +1,40 @@
+.undertext{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+}
+.overtext{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+.headertext{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.courtiernew{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.emphasis{
+    font-weight: lighter;
+}
+.sanserif{
+    font-family: sans-serif;
+}
+.bold{
+    font-weight: bolder;
+}
+
+.smallfont{
+    font-size: 13px;
+}
+
+.subheader{
+    font-size: 15px;
+}
